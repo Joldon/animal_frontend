@@ -1,4 +1,6 @@
 import { useState } from "react";
+import API_ROOT from '../utils';
+
 // import {client}  from "../client";
 
 // const getAnimal = (animal) => ({
@@ -24,7 +26,7 @@ function useSelectedAnimal() {
   
   const fetchAnimal = (_id) => {
     setIsloading(true);
-    const fetchString = `http://localhost:5000/animals/${_id}`
+    const fetchString = `${API_ROOT}animals/${_id}`
     fetch(fetchString)
           .then((response) => response.json())
           .then((json) => {

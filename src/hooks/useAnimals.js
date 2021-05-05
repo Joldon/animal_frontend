@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import API_ROOT from '../utils';
 // import { client } from "../client";
 // import axios from "axios";
 
@@ -46,7 +47,7 @@ function useAnimals() {
   // }, []);
 
   useEffect(() => {
-    fetch("http://localhost:5000/animals")
+    fetch(`${API_ROOT}animals`)
       .then((response) => response.json())
       .then((json) => {
         
