@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Joldon.github.io/nodeapi",
-  "name": "nodeapi",
+  "homepage": "https://Joldon.github.io/animal_frontend",
+  "name": "animal_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
