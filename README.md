@@ -1,10 +1,8 @@
-### Funny Animals
-
-![Animal logo](/crazy-chicken-gfxtra.jpg "Follow me....")
+### Absolute Amazing Animals
+This is the frontend part of the "Absolute Amazing Animals" project, created with the help of MERN stack. The backend part of this project can be found [here](https://github.com/Joldon/animals_backend).
 
 ### Description
-
-
+The project was developed by the group of my colleagues who created the main content of this webpage utilizing the Contentful. My task was to modify this project by replacing the Contentful API with and connecting to a MongoDB server (the backend server was also created by me).
 
 
 ### Recent Activity
